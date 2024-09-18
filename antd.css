@@ -1,0 +1,127 @@
+/* antd.css */
+
+/* General reset and base styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  a {
+    color: #1890ff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Button Styles */
+  .ant-btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.5715;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    background: #1890ff;
+    color: #fff;
+    padding: 0 15px;
+    height: 32px;
+    line-height: 32px;
+  }
+  
+  .ant-btn-primary {
+    background: #1890ff;
+    border-color: #1890ff;
+  }
+  
+  .ant-btn:hover {
+    background: #40a9ff;
+    border-color: #40a9ff;
+  }
+  
+  /* Select Styles */
+  .ant-select {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .ant-select-selector {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #d9d9d9;
+    border-radius: 4px;
+    padding: 4px 11px;
+    background: #fff;
+    cursor: pointer;
+  }
+  
+  .ant-select-selection-item {
+    line-height: 32px;
+  }
+  
+  .ant-select-arrow {
+    font-size: 12px;
+    color: #d9d9d9;
+  }
+  
+  /* Form Styles */
+  .ant-form-item {
+    margin-bottom: 24px;
+  }
+  
+  .ant-form-item-label {
+    padding-bottom: 8px;
+  }
+  
+  .ant-form-item-label > label {
+    font-weight: 600;
+  }
+  
+  .ant-form-item-control-input {
+    margin-top: 4px;
+  }
+  
+  /* General Layout */
+  .ant-layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .ant-layout-header {
+    background: #001529;
+    color: #fff;
+    padding: 0 16px;
+    height: 64px;
+    line-height: 64px;
+  }
+  
+  .ant-layout-content {
+    margin: 24px 16px;
+    padding: 24px;
+    background: #fff;
+    border-radius: 4px;
+  }
+  
+  .ant-layout-footer {
+    text-align: center;
+    padding: 24px;
+    background: #f0f2f5;
+  }
+  
+  /* Utility Classes */
+  .ant-hide {
+    display: none;
+  }
+  
